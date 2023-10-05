@@ -1,0 +1,18 @@
+#### Setting step ####
+SEED: 42
+GPU_NUM: "0"
+gpu: 'cuda'
+
+#### Training step ####
+EPOCHS: 50
+# batch_size: 64
+lr: 1e-4
+
+weight_decay: 1e-3
+
+
+downsampling: 0
+
+num_subjects: 1
+sampling_rate: 250
+
