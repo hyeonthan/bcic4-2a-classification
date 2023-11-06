@@ -12,3 +12,6 @@ This dataset contains EEG data collected from 9 subjects. The cue-based BCI para
 Twenty-two Ag/AgCl electrodes (with inter-electrode distances of 3.5cm) were used to record the EEG. All signals were recorded monopolarly with the left mastoid serving as reference and the right mastoid as ground. The signals were sampled with 250 Hz and bandpass-filtered between 0.5 Hz and 100 Hz. The sensitivity of the amplifier was set to 100 μV. An additional 50 Hz notch filter was enabled to suppress line noise.
 
 The dataset was preprocessed and saved in numpy format. For training, the data of 8 out of 9 subjects were trained, and the training and evaluation data of the remaining 1 subject were categorized as validation and test, respectively. The *_X.npy file is the data to be used for training and the *_Y.npy file is the label.
+
+# Contact information
+* ht_han@korea.ac.kr
